@@ -1,19 +1,20 @@
 import Header from "./components/Header";
-function App()
-{
-  //let title ="React Course";
+import ReactState from "./components/ReactState";
+function App(){
+  //let title = "React Course";
   //let bgClass = "bg-danger";
-  let size= 24 ;
-    let isHeading = false;
-
- return(
-  <>
-  <div className={ isHeading ? "bg-danger":"" } >Hello World
-
-  <p style={{color:"yellow",fontSize:size}}>{8+1}</p><Header/>
-  
-    </div></>
- )
+  let isHeading = true;
+  let size = 24;
+  return(
+    <>
+    <div className={isHeading ? "bg-danger":""}>
+      Hello React World
+      <p style={{color:"yellow", fontSize:size+""}}>{1+1}</p>
+      <Header />
+      <ReactState/>
+      helo
+    </div>
+    </>
+  )
 }
-
 export default App;
