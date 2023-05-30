@@ -5,8 +5,8 @@ function ReactState(props){
         {id: 1, name: "Raveena", fees: 35000, course:"Mern"},
         {id: 2, name: "Saloni", fees: 15000, course:"Python"},
         {id: 3, name: "Rahul", fees : 10000, course:"Php"},
-        {id: 4, name: "Ambeshwar", fees: 35000, course:"Mern"},
-        {id: 5, name: "Charran", fees: 15000, course:"Mongo"}
+        {id: 4, name: "Ambeshwar", fees: 35000, course:"Mern"}, 
+         {id: 5, name: "Charran", fees: 15000, course:"Mongo"}
      ]
 
     const [title, setTitle] = useState("React State");
