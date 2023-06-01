@@ -48,7 +48,6 @@ return[
                         <td>{item.name}</td>
                         <td>{item.fees}</td>
                         <td>{item.course}</td>
-                        
                     </tr>
                 )
             })
