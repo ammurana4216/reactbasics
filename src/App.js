@@ -9,15 +9,15 @@ function App(){
   let size = 24;
   return(
     <>
-    <div className={isHeading ? "bg-danger":""}>
+    {/* /* <div className={isHeading ? "bg-danger":""}>
       Hello React World
       <p style={{color:"yellow", fontSize:size+""}}>{1+1}</p>
-      <Header />
-      <ReactState/>
-      <ReactProps/>
-      <Card/>
-      helo
-    </div>
+       */ }
+      <ReactState />
+      
+     
+      
+    
     </>
   )
 }
