@@ -1,17 +1,14 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+
+.bg-danger{
+  background-color: rgb(230, 67, 67);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-.bg-danger
-{
-  background-color: yellowgreen;
+.card{
+  width: 300px;
+  background-color: coral;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid salmon;
 }
