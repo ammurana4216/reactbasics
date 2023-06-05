@@ -15,7 +15,7 @@ function ReactState() {
         setStudentData((prev)=>{
             return [
                 ...prev,
-                {id: 6, name: "Ravi", fees: 34000, course: "Digital Marketing"}
+                {id: 5, name: "Ravi", fees: 34000, course: "Digital Marketing"}
             ]
         })
     }
